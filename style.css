@@ -1,0 +1,92 @@
+/* --- Estilos generales --- */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f6fbf4;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+header {
+    background-color: #248773b7;
+    color: #fff;
+    text-align: center;
+    padding: 35px 20px;
+    border-bottom: 6px solid #518f80;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.subtitulo {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #fefefe;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    padding: 40px;
+}
+
+/* --- Tarjetas (secciones de contenido) --- */
+.card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 25px;
+    line-height: 1.7;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* Colores por sección */
+.historia {
+    background-color: #fff3e0;
+    border-left: 8px solid #f58a42;
+}
+
+.platos {
+    background-color: #e0f9e8;
+    border-left: 8px solid #3cae62;
+}
+
+.bailes {
+    background-color: #e4edff;
+    border-left: 8px solid #3c6ee0;
+}
+
+.personajes {
+    background-color: #ffe0eb;
+    border-left: 8px solid #e04a75;
+}
+
+/* --- Imagen --- */
+.imagen {
+    grid-column: span 2;
+    text-align: center;
+}
+
+.imagen img {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 15px;
+    border: 5px solid #ccc;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    background-color: #5ba08f;
+    color: #fff;
+    padding: 20px;
+    font-size: 0.9em;
+}
